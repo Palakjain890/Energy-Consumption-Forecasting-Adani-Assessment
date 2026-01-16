@@ -1,4 +1,4 @@
-# 🔌 Energy Consumption Forecasting 
+# 🔌 Energy Consumption Forecasting using Machine Learning
 
 ## 📌 Problem Statement
 The objective of this project is to forecast short-term electricity consumption using historical hourly demand data from a transmission system operator. The dataset represents a univariate time series with strong seasonal patterns. The goal is to build a data-driven machine learning model to predict future energy demand and analyze its implications for energy management and sustainability.
@@ -85,3 +85,15 @@ The forecasting model successfully captures daily and weekly demand patterns in 
 ## ▶ How to Run
 
 1. Install required libraries:
+   pip install pandas scikit-learn matplotlib
+
+2. Run the notebook:
+   jupyter notebook Energy_prediction.ipynb
+
+Ensure that the dataset file `Predicting Energy Consumption.csv` is in the same directory as the notebook.
+
+---
+
+## 📌 Note
+
+This project was completed as part of a technical assessment for a Predictive Analytics role, focusing on modeling approach, feature engineering, and interpretation rather than enterprise-level optimization.
